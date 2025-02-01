@@ -1,0 +1,133 @@
+/* Umum untuk Semua Halaman */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Container untuk Semua Halaman */
+.container {
+    background-color: white;
+    padding: 25px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+}
+
+/* Halaman Login Spesifik - Tanpa Perubahan */
+.login-container {
+    width: 300px;
+}
+
+.input-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 99%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+button {
+    width: 50%;
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+.logo {
+    width: 100px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+/* Halaman Dashboard Spesifik */
+.dashboard-container {
+    width: 350px; /* Sedikit lebih besar dari halaman login */
+    background-color: #ffffff;
+    padding: 25px;
+    border-radius: 10px; /* Sudut lebih melengkung untuk dashboard */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); /* Bayangan lebih halus */
+    text-align: center;
+    transition: transform 0.2s ease-in-out;
+}
+
+.dashboard-container:hover {
+    transform: scale(1.05); /* Efek hover pada container */
+}
+
+h1 {
+    color: #28a745;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+p {
+    color: #555;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.logout-btn {
+    display: inline-block;
+    padding: 12px 25px;
+    background-color: #ff4d4d; /* Merah cerah untuk tombol logout */
+    color: white;
+    border: none;
+    border-radius: 25px; /* Tombol lebih bulat */
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    margin-top: 20px;
+}
+
+.logout-btn:hover {
+    background-color: #ff3333;
+    transform: scale(1.1); /* Sedikit membesar saat hover */
+}
+
+.logout-btn:active {
+    transform: scale(0.98); /* Sedikit mengecil saat klik */
+}
+
+/* Footer - Tidak ada perubahan */
+footer {
+    margin-top: 20px;
+    font-size: 12px;
+    color: #777;
+}
+
+footer a {
+    text-decoration: none;
+    color: #d9534f;
+}
+
+footer a:hover {
+    color: #c9302c;
+}
